@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="axi_uartlite_reciever_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_uartlite_reciever_testbench" />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lib_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,008.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,109.801 ns"></ZoomEndTime>
+      <Cursor1Time time="1,037.400 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="218"></NameColumnWidth>
+      <ValueColumnWidth column_width="94"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/BIT_CYC" type="array">
+      <obj_property name="ElementShortName">BIT_CYC[63:0]</obj_property>
+      <obj_property name="ObjectShortName">BIT_CYC[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/rx" type="logic">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/tx" type="logic">
+      <obj_property name="ElementShortName">tx</obj_property>
+      <obj_property name="ObjectShortName">tx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/data" type="array">
+      <obj_property name="ElementShortName">data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/r_bit_count" type="array">
+      <obj_property name="ElementShortName">r_bit_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_bit_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/r_data_count" type="array">
+      <obj_property name="ElementShortName">r_data_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r_data_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/s_flag" type="logic">
+      <obj_property name="ElementShortName">s_flag</obj_property>
+      <obj_property name="ObjectShortName">s_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/s_data_count" type="array">
+      <obj_property name="ElementShortName">s_data_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_data_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/RATE" type="array">
+      <obj_property name="ElementShortName">RATE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RATE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/DATA_SIZE" type="array">
+      <obj_property name="ElementShortName">DATA_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/DATA_NUM" type="array">
+      <obj_property name="ElementShortName">DATA_NUM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_NUM[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/axi_uart_mem/uart_ctrl/reader/M_AXI_RDATA" type="array">
+      <obj_property name="ElementShortName">M_AXI_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_RDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/axi_uart_mem/uart_ctrl/reader/M_AXI_ARADDR" type="array">
+      <obj_property name="ElementShortName">M_AXI_ARADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_ARADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/axi_uart_mem/uart_ctrl/reader/M_AXI_ARVALID" type="logic">
+      <obj_property name="ElementShortName">M_AXI_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_ARVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/axi_uart_mem/uart_ctrl/reader/M_AXI_ARREADY" type="logic">
+      <obj_property name="ElementShortName">M_AXI_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_ARREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/axi_uart_mem/uart_ctrl/reader/pop_read" type="logic">
+      <obj_property name="ElementShortName">pop_read</obj_property>
+      <obj_property name="ObjectShortName">pop_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/axi_uart_mem/uart_ctrl/reader/M_AXI_RRESP" type="array">
+      <obj_property name="ElementShortName">M_AXI_RRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_RRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/axi_uart_mem/um_valid" type="logic">
+      <obj_property name="ElementShortName">um_valid</obj_property>
+      <obj_property name="ObjectShortName">um_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/axi_uart_mem/um_ready" type="logic">
+      <obj_property name="ElementShortName">um_ready</obj_property>
+      <obj_property name="ObjectShortName">um_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/axi_uartlite_reciever_testbench/axi_uart_mem/um_data" type="array">
+      <obj_property name="ElementShortName">um_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">um_data[7:0]</obj_property>
+   </wvobject>
+</wave_config>
